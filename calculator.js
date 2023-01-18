@@ -7,7 +7,7 @@ let h3=document.querySelector("h3");
 let buttonAdd=document.querySelector('#add');
 buttonAdd.addEventListener("click",add);
 function add(){
-    h3.innerHTML+= parseInt(inputX.value) + parseInt(inputY.value);
+    h3.innerHTML= parseInt(inputX.value) + parseInt(inputY.value);
 }
 
 
@@ -15,14 +15,14 @@ function add(){
 let buttonMul=document.querySelector("#mul");
 buttonMul.addEventListener("click",mul);
 function mul(){
-    h3.innerHTML+= parseInt(inputX.value) * parseInt(inputY.value);
+    h3.innerHTML= parseInt(inputX.value) * parseInt(inputY.value);
 }
 
 // substraction button
 let buttonSubs=document.querySelector("#subs");
 buttonSubs.addEventListener("click",subs);
 function subs(){
-    h3.innerHTML+= parseInt(inputX.value) - parseInt(inputY.value);
+    h3.innerHTML= parseInt(inputX.value) - parseInt(inputY.value);
 }
 
 
@@ -30,5 +30,5 @@ function subs(){
 let buttonDivi=document.querySelector("#divi");
 buttonDivi.addEventListener("click",divi);
 function divi(){
-    h3.innerHTML+= parseInt(inputX.value) / parseInt(inputY.value);
+    h3.innerHTML= parseInt(inputX.value) / parseInt(inputY.value);
 }
