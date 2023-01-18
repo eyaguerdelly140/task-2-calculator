@@ -19,12 +19,15 @@ body{
     font-size: 30px;
     height: 500px;
     width: 500px;
-    border: solid 3px rgb(108, 108, 114);
+    border: solid 3px rgb(190, 190, 205);
     border-radius: 8px;
     background-color: #f4f4f4;
     
 }
 button{
     width: 30px;
+    height: 30px;
+}
+input {
     height: 30px;
 }
